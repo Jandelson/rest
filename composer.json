@@ -1,0 +1,14 @@
+{
+    "name": "api/testes-api",
+    "description": "Api",
+    "require": {
+        "slim/slim": "^4.3",
+        "slim/psr7": "^0.6.0",
+        "doctrine/dbal": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/Api/"
+        }
+    }
+}
